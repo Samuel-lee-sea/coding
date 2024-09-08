@@ -57,7 +57,7 @@ public class TeamController {
      * 创建队伍
      * @param createTeamRequest
      * @param request
-     * @return
+     * @return teamId
      */
     @PostMapping("/create")
     public BaseResponse<Long> createTeam(HttpServletRequest request, @RequestBody CreateTeamRequest createTeamRequest){
